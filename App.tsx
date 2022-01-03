@@ -6,7 +6,7 @@ import { Inter_400Regular, Inter_500Medium } from '@expo-google-fonts/inter';
 import AppLoading from 'expo-app-loading';
 import { useFonts } from 'expo-font'; //Carregar fonts no dispositivo do usuário
 
-import { SignIn } from './src/screens/SignIn';
+import { Routes } from './src/routes';
 import { Background } from './src/components/Background'
 
 export default function App() {
@@ -28,7 +28,7 @@ export default function App() {
           backgroundColor="transparent"
           translucent
         />
-      <SignIn />
+      <Routes />
     </Background>
   )
 }
